@@ -101,7 +101,7 @@
 		"noPropertyAccessFromIndexSignature": true /* 인덱스 타입을 사용하여 선언된 키에 대해 인덱스 접근자를 사용하도록 강제합니다. */,
 		"allowUnusedLabels": false /* 사용되지 않는 레이블에 대해 오류 보고를 활성화합니다. */,
 		"allowUnreachableCode": false /* 도달할 수 없는 코드에 대해 오류 보고를 활성화합니다. */,
-		"jsx": "react-jsx",
+		"jsx": "react",
 		/* Completeness */
 		"skipLibCheck": true /* 모든 .d.ts 파일에 대한 타입 검사를 건너뜁니다. */
 	}

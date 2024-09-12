@@ -1,6 +1,6 @@
 //https://www.youtube.com/
 
-import React from 'react';
+import * as React from 'react';
 function HomePage() {
 	return <div>Main Home</div>;
 }

@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
-import Home from './URLPage/HomePage';
-import Research from './URLPage/ResearchPage';
-import UserChannel from './URLPage/UserChannelPage';
+import Home from './HomePage';
+import Research from './ResearchPage';
+import UserChannel from './UserChannelPage';
 function Router() {
 	return (
 		<BrowserRouter>
