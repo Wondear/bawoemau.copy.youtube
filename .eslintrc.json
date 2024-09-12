@@ -1,0 +1,18 @@
+{
+    "extends": [
+      "react-app",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["react", "@typescript-eslint"],
+    "rules": {
+      // 사용자 정의 규칙 추가
+      "no-console": "warn",
+      "react/prop-types": "off",
+      "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+      "react/react-in-jsx-scope": "off"
+    }
+  }
+  

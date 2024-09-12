@@ -1,10 +1,11 @@
-import React from 'react';
-import Router from './URLPage/Router';
+import Router from './pages/Router';
 
-export default function App() {
+function App() {
 	return (
-		<div>
+		<div className="App">
 			<Router />
 		</div>
 	);
 }
+
+export default App;
